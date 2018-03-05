@@ -7,8 +7,8 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import firebase from 'firebase';
 import ReduxThunk from 'redux-thunk';
+import RouterComponent from './src/Router';
 import reducers from './src/reducers';
-import LoginForm from './src/components/LoginForm';
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -31,7 +31,7 @@ export default class App extends Component<Props> {
     return (
       <Provider store={store}>
         <View style={styles.container}>
-          <LoginForm />
+          <RouterComponent />
         </View>
       </Provider>
     );
