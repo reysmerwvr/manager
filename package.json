@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "firebase": "^10.14.1",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "react": "16.2.0",
     "react-native": "0.72.6",
     "react-native-communications": "^2.2.1",
